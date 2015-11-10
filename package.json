@@ -1,0 +1,26 @@
+{
+  "name": "fibonacci-perf",
+  "version": "0.0.1",
+  "description": "fibonacci  function for perf purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint timing.js && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/121Room/fibonacci-perf"
+  },
+  "keywords": [
+    "fibonacci-perf",
+    "performance",
+    "perf"
+  ],
+  "author": "JIANG Di",
+  "bugs": {
+    "url": "https://github.com/121Room/fibonacci-perf/issues"
+  },
+  "homepage": "https://github.com/121Room/fibonacci-perf",
+  "devDependencies": {
+    "eslint": "^1.8.0"
+  }
+}
