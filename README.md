@@ -1,21 +1,17 @@
-timing.js
+fibonacci-perf
 =========
 
-collect the raw data of Navigation Timing API
+fibonacci function for perf purpose
 
 ## Installation
 
 ```sh
-$ npm install timing_commonjs
+$ npm install fibonacci-perf
 ```
 
 ## Usage
 
 ```js
-let timing = require('timing_commonjs')
-console.log(timing())
+let fib = require('fibonacci-perf')
+console.log(fib(60))
 ```
-
-## License
-
-Released under an MIT license.
