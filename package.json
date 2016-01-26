@@ -4,7 +4,7 @@
   "description": "fibonacci  function for perf purpose",
   "main": "index.js",
   "scripts": {
-    "test": "eslint timing.js && node test.js"
+    "test": "eslint index.js && node test.js"
   },
   "repository": {
     "type": "git",
