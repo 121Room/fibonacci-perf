@@ -4,7 +4,8 @@
   "description": "fibonacci  function for perf purpose",
   "main": "index.js",
   "scripts": {
-    "test": "jscs ./ && node test.js"
+    "test": "jscs ./ && node test.js",
+    "precommit": "npm test"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   },
   "homepage": "https://github.com/121Room/fibonacci-perf",
   "devDependencies": {
-     "jscs": "^2.7.0",
-     "pre-commit": "^1.1.2"
-}
+    "husky": "^0.11.1",
+    "jscs": "^2.7.0"
+  }
 }
