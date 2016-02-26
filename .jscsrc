@@ -3,5 +3,6 @@
     "disallowSemicolons": true,
     "requireSemicolons": false,
     "requireTrailingComma": false,
-    "disallowMultipleVarDecl": false
+    "disallowMultipleVarDecl": false,
+    "validateIndentation": 4
 }
